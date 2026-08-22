@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Household air pollution exposure evidence panel</title>
+  <desc id="desc">A visual summary of adjusted pollutant reductions in improved cookstove households, comparison across cooking-period and 24-hour exposure windows, and the analytical evidence chain.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123F46"/>
+      <stop offset="1" stop-color="#196B66"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#16A085"/>
+      <stop offset="1" stop-color="#47C8A5"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#17333A" flood-opacity=".10"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" fill="#F5F8F7"/>
+  <rect width="1200" height="158" fill="url(#header)"/>
+  <circle cx="1090" cy="-20" r="190" fill="#38B79B" opacity=".16"/>
+  <circle cx="1170" cy="104" r="102" fill="#A8E3CC" opacity=".12"/>
+  <text x="58" y="61" fill="#B6E8D9" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="2.5">ENVIRONMENTAL HEALTH • ADJUSTED ASSOCIATIONS</text>
+  <text x="58" y="108" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Household Air Pollution: Exposure Evidence Panel</text>
+  <text x="58" y="136" fill="#D6F2EA" font-family="Arial, Helvetica, sans-serif" font-size="18">180 households • improved cookstove adoption compared with traditional biomass cooking</text>
+
+  <g filter="url(#shadow)">
+    <rect x="52" y="190" width="614" height="334" rx="18" fill="#FFFFFF"/>
+    <rect x="694" y="190" width="454" height="334" rx="18" fill="#FFFFFF"/>
+  </g>
+  <text x="82" y="228" fill="#18363C" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Adjusted reduction during active cooking</text>
+  <text x="82" y="253" fill="#65777B" font-family="Arial, Helvetica, sans-serif" font-size="14">Lower concentration in improved-cookstove households</text>
+  <line x1="231" y1="284" x2="584" y2="284" stroke="#DCE6E3"/>
+  <text x="231" y="276" fill="#7C8E90" font-family="Arial, Helvetica, sans-serif" font-size="12">0%</text>
+  <text x="393" y="276" fill="#7C8E90" font-family="Arial, Helvetica, sans-serif" font-size="12">25%</text>
+  <text x="555" y="276" fill="#7C8E90" font-family="Arial, Helvetica, sans-serif" font-size="12">50%</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="82" y="321" fill="#29454A" font-size="16" font-weight="700">PM10</text>
+    <rect x="231" y="300" width="353" height="25" rx="12" fill="#E5EFEC"/>
+    <rect x="231" y="300" width="198" height="25" rx="12" fill="url(#accent)"/>
+    <text x="441" y="319" fill="#0C574A" font-size="15" font-weight="700">28%</text>
+    <text x="82" y="365" fill="#29454A" font-size="16" font-weight="700">PM2.5</text>
+    <rect x="231" y="344" width="353" height="25" rx="12" fill="#E5EFEC"/>
+    <rect x="231" y="344" width="254" height="25" rx="12" fill="url(#accent)"/>
+    <text x="497" y="363" fill="#0C574A" font-size="15" font-weight="700">36%</text>
+    <text x="82" y="409" fill="#29454A" font-size="16" font-weight="700">PM1</text>
+    <rect x="231" y="388" width="353" height="25" rx="12" fill="#E5EFEC"/>
+    <rect x="231" y="388" width="268" height="25" rx="12" fill="url(#accent)"/>
+    <text x="511" y="407" fill="#0C574A" font-size="15" font-weight="700">38%</text>
+    <text x="82" y="453" fill="#29454A" font-size="16" font-weight="700">Black carbon</text>
+    <rect x="231" y="432" width="353" height="25" rx="12" fill="#E5EFEC"/>
+    <rect x="231" y="432" width="304" height="25" rx="12" fill="url(#accent)"/>
+    <text x="547" y="451" fill="#0C574A" font-size="15" font-weight="700">43%</text>
+    <text x="82" y="497" fill="#29454A" font-size="16" font-weight="700">Carbon monoxide</text>
+    <rect x="231" y="476" width="353" height="25" rx="12" fill="#E5EFEC"/>
+    <rect x="231" y="476" width="120" height="25" rx="12" fill="url(#accent)"/>
+    <text x="363" y="495" fill="#0C574A" font-size="15" font-weight="700">17%</text>
+  </g>
+
+  <text x="724" y="228" fill="#18363C" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Exposure-window comparison</text>
+  <text x="724" y="253" fill="#65777B" font-family="Arial, Helvetica, sans-serif" font-size="14">Adjusted reduction by monitoring window</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="724" y="278" width="12" height="12" rx="3" fill="#159E85"/><text x="744" y="289" fill="#466066" font-size="13">Cooking period</text>
+    <rect x="856" y="278" width="12" height="12" rx="3" fill="#A4B7B4"/><text x="876" y="289" fill="#466066" font-size="13">24-hour average</text>
+    <line x1="758" y1="453" x2="1110" y2="453" stroke="#BFCFCA"/>
+    <line x1="758" y1="311" x2="758" y2="453" stroke="#BFCFCA"/>
+    <text x="740" y="457" fill="#7C8E90" font-size="12">0</text>
+    <text x="730" y="384" fill="#7C8E90" font-size="12">20</text>
+    <text x="730" y="318" fill="#7C8E90" font-size="12">40%</text>
+    <rect x="805" y="353" width="35" height="100" rx="6" fill="#159E85"/>
+    <rect x="847" y="389" width="35" height="64" rx="6" fill="#A4B7B4"/>
+    <text x="809" y="344" fill="#0C574A" font-size="13" font-weight="700">28</text><text x="852" y="380" fill="#64777B" font-size="13" font-weight="700">18</text>
+    <rect x="914" y="324" width="35" height="129" rx="6" fill="#159E85"/>
+    <rect x="956" y="381" width="35" height="72" rx="6" fill="#A4B7B4"/>
+    <text x="918" y="315" fill="#0C574A" font-size="13" font-weight="700">36</text><text x="961" y="372" fill="#64777B" font-size="13" font-weight="700">20</text>
+    <rect x="1023" y="317" width="35" height="136" rx="6" fill="#159E85"/>
+    <rect x="1065" y="381" width="35" height="72" rx="6" fill="#A4B7B4"/>
+    <text x="1027" y="308" fill="#0C574A" font-size="13" font-weight="700">38</text><text x="1070" y="372" fill="#64777B" font-size="13" font-weight="700">20</text>
+    <text x="812" y="483" fill="#466066" font-size="13" font-weight="700">PM10</text>
+    <text x="917" y="483" fill="#466066" font-size="13" font-weight="700">PM2.5</text>
+    <text x="1034" y="483" fill="#466066" font-size="13" font-weight="700">PM1</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="52" y="553" width="1096" height="119" rx="18" fill="#163C43"/>
+  </g>
+  <text x="82" y="588" fill="#BCEBDE" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.7">ANALYTICAL EVIDENCE CHAIN</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="82" y="626" fill="#FFFFFF" font-size="17" font-weight="700">Exposure windows</text>
+    <text x="82" y="648" fill="#B9D2CE" font-size="13">Cooking period and 24-hour monitoring</text>
+    <path d="M303 630H351" stroke="#6ED0B5" stroke-width="2"/><path d="M342 623L351 630L342 637" fill="none" stroke="#6ED0B5" stroke-width="2"/>
+    <text x="374" y="626" fill="#FFFFFF" font-size="17" font-weight="700">Adjusted models</text>
+    <text x="374" y="648" fill="#B9D2CE" font-size="13">Household and program factors considered</text>
+    <path d="M627 630H675" stroke="#6ED0B5" stroke-width="2"/><path d="M666 623L675 630L666 637" fill="none" stroke="#6ED0B5" stroke-width="2"/>
+    <text x="697" y="626" fill="#FFFFFF" font-size="17" font-weight="700">Robustness checks</text>
+    <text x="697" y="648" fill="#B9D2CE" font-size="13">IPW sensitivity and balance diagnostics</text>
+    <path d="M971 630H1019" stroke="#6ED0B5" stroke-width="2"/><path d="M1010 623L1019 630L1010 637" fill="none" stroke="#6ED0B5" stroke-width="2"/>
+    <text x="1041" y="626" fill="#FFFFFF" font-size="17" font-weight="700">Interpret</text>
+    <text x="1041" y="648" fill="#B9D2CE" font-size="13">Observational evidence</text>
+  </g>
+</svg>

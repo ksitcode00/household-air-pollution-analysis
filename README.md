@@ -34,6 +34,10 @@ Were pollutant concentrations lower in IDES households than in traditional bioma
 
 The figures summarize aggregate results reported in the public analysis. Participant-level monitoring and survey data are not included.
 
+### Exposure Evidence Panel
+
+![Household air-pollution exposure evidence panel](figures/household-exposure-evidence-panel.svg)
+
 ### Adjusted Cooking-Period Reductions
 
 ![Adjusted cooking-period pollutant reductions](figures/adjusted_pollution_reduction.svg)
