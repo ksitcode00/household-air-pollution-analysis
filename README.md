@@ -14,7 +14,7 @@ Led the R-based statistical analysis, including survey and monitoring-data clean
 
 ## Quick Review
 
-**[Executive Summary](#executive-summary)** → **[Key Findings](#key-findings)** → **[Figures](#figures)** → **[R Analysis](analysis/air_pollution_analysis.Rmd)** → **[Methodology](docs/methodology.md)** → **[Data Privacy](docs/data_privacy.md)**
+**[Executive Summary](#executive-summary)** → **[Key Findings](#key-findings)** → **[Analysis Walkthrough](#analysis-walkthrough)** → **[Figures](#figures)** → **[R Pipeline](R/README.md)** → **[Methodology](docs/methodology.md)** → **[Data Privacy](docs/data_privacy.md)**
 
 ## Research Question
 
@@ -40,6 +40,35 @@ The figures summarize aggregate results reported in the public analysis. Partici
 
 ![Household study sample](figures/study_sample.svg)
 
+## Analysis Walkthrough
+
+### 1. Convert restricted source data into analysis variables
+
+The pipeline loads the approved local workbook, creates consistent comparison groups, and ensures the stove-type outcome has an explicit reference category.
+
+```r
+df <- prepare_analysis_data(load_study_data())
+df$Type <- factor(df$Type, levels = c("Traditional", "Improved"))
+```
+
+### 2. Estimate pollutant differences by stove type
+
+For each log-transformed pollutant outcome, the analysis fits a transparent linear model using cookstove type as the comparison variable. The full R Markdown extends these analyses with adjustment, diagnostics, and sensitivity work.
+
+```r
+pollutant_models <- fit_pollutant_models(df)
+pollutant_summary <- summarize_pollutant_models(pollutant_models)
+```
+
+### 3. Review respiratory-health associations
+
+Binary symptom models return odds ratios and confidence intervals for reviewer-friendly interpretation.
+
+```r
+wheezing_model <- fit_binary_association(df, "Wheezing", "Type")
+odds_ratio_table(wheezing_model)
+```
+
 ## Program Interpretation
 
 The largest adjusted reductions appeared during the window when cookstove emissions are most direct. Smaller 24-hour reductions are consistent with other real-world exposure sources, ventilation, neighborhood activity, stove stacking, and household behaviors. These findings support cookstove programs alongside broader attention to household conditions and sustained adoption.
@@ -49,7 +78,9 @@ The largest adjusted reductions appeared during the window when cookstove emissi
 | Resource | Purpose |
 | --- | --- |
 | [R analysis](analysis/air_pollution_analysis.Rmd) | Sanitized R Markdown workflow for cleaning, modeling, diagnostics, and sensitivity analysis. |
+| [R pipeline](R/README.md) | Separated code-review entrypoints for cleaning, pollutant models, symptom models, and figures. |
 | [Methodology](docs/methodology.md) | Study design, analytical workflow, and interpretation boundary. |
+| [Reproducibility](docs/reproducibility.md) | Dependency manifest and instructions for creating a local environment. |
 | [Data availability](data/README.md) | Restricted-data boundary and expected local path. |
 | [Data privacy](docs/data_privacy.md) | Public-release boundary for research materials. |
 
@@ -78,6 +109,7 @@ Key R dependencies include `readxl`, `dplyr`, `ggplot2`, `MASS`, `logistf`, `med
 ```text
 .
 ├── analysis/       # Sanitized R Markdown analysis
+├── R/              # Separated R pipeline entrypoints
 ├── data/           # Restricted-data documentation only
 ├── docs/           # Methods and privacy documentation
 ├── figures/        # Aggregate portfolio figures
