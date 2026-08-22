@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="310" viewBox="0 0 900 310" role="img" aria-labelledby="title desc">
+  <title id="title">Adjusted pollutant reduction during cooking</title>
+  <desc id="desc">Improved cookstove use was associated with lower adjusted cooking-period pollutant concentrations compared with traditional biomass cookstoves.</desc>
+  <rect width="900" height="310" fill="#f6f8fa"/>
+  <text x="48" y="46" fill="#24292f" font-family="Arial, sans-serif" font-size="25" font-weight="700">Adjusted Pollution Reduction During Cooking</text>
+  <text x="48" y="74" fill="#57606a" font-family="Arial, sans-serif" font-size="16">IDES cookstove households compared with traditional biomass cookstove households</text>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#57606a"><text x="48" y="123">PM10</text><text x="48" y="161">PM2.5</text><text x="48" y="199">PM1</text><text x="48" y="237">Black carbon</text><text x="48" y="275">CO</text></g>
+  <g fill="#0a7f65"><rect x="180" y="104" width="280" height="23" rx="3"/><rect x="180" y="142" width="360" height="23" rx="3"/><rect x="180" y="180" width="380" height="23" rx="3"/><rect x="180" y="218" width="430" height="23" rx="3"/><rect x="180" y="256" width="170" height="23" rx="3"/></g>
+  <g font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#24292f"><text x="480" y="122">−28%</text><text x="560" y="160">−36%</text><text x="580" y="198">−38%</text><text x="630" y="236">−43%</text><text x="370" y="274">−17%</text></g>
+</svg>

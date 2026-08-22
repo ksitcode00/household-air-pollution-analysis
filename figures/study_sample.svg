@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+  <title id="title">Household study sample</title>
+  <desc id="desc">The study compared 105 improved cookstove households and 75 traditional biomass cookstove households.</desc>
+  <rect width="900" height="260" fill="#f6f8fa"/>
+  <text x="48" y="48" fill="#24292f" font-family="Arial, sans-serif" font-size="25" font-weight="700">Household Study Sample</text>
+  <text x="48" y="76" fill="#57606a" font-family="Arial, sans-serif" font-size="16">Rural Odisha indoor-air-quality monitoring study</text>
+  <rect x="140" y="125" width="420" height="52" rx="5" fill="#0a7f65"/>
+  <rect x="600" y="125" width="300" height="52" rx="5" fill="#9aa4af"/>
+  <text x="140" y="111" fill="#24292f" font-family="Arial, sans-serif" font-size="20" font-weight="700">105 IDES households</text>
+  <text x="600" y="111" fill="#24292f" font-family="Arial, sans-serif" font-size="20" font-weight="700">75 traditional households</text>
+  <text x="48" y="220" fill="#57606a" font-family="Arial, sans-serif" font-size="16">Total analytical sample: 180 households</text>
+</svg>
