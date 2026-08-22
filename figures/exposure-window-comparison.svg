@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="520" viewBox="0 0 1040 520" role="img" aria-labelledby="title desc">
+  <title id="title">Adjusted pollutant reduction by exposure window</title>
+  <desc id="desc">Improved cookstove use was associated with larger reductions during cooking periods than for 24-hour particle averages.</desc>
+  <rect width="1040" height="520" fill="#fff"/>
+  <text x="64" y="68" fill="#132238" font-family="Arial,sans-serif" font-size="30" font-weight="700">Adjusted pollutant reduction by exposure window</text>
+  <text x="64" y="105" fill="#5e6b7a" font-family="Arial,sans-serif" font-size="18">Improved cookstove versus traditional cookstove</text>
+  <g font-family="Arial,sans-serif" font-size="16" fill="#34465a"><rect x="670" y="80" width="16" height="16" fill="#247b84"/><text x="695" y="94">Cooking period</text><rect x="840" y="80" width="16" height="16" fill="#9eb7bb"/><text x="865" y="94">24-hour average</text></g>
+  <g font-family="Arial,sans-serif">
+    <text x="90" y="180" fill="#34465a" font-size="20">PM10</text><rect x="225" y="150" width="392" height="24" rx="5" fill="#247b84"/><text x="628" y="170" fill="#132238" font-size="18" font-weight="700">28%</text><rect x="225" y="181" width="252" height="18" rx="5" fill="#9eb7bb"/><text x="488" y="196" fill="#34465a" font-size="16">18%</text>
+    <text x="90" y="255" fill="#34465a" font-size="20">PM2.5</text><rect x="225" y="225" width="504" height="24" rx="5" fill="#247b84"/><text x="740" y="245" fill="#132238" font-size="18" font-weight="700">36%</text><rect x="225" y="256" width="280" height="18" rx="5" fill="#9eb7bb"/><text x="516" y="271" fill="#34465a" font-size="16">20%</text>
+    <text x="90" y="330" fill="#34465a" font-size="20">PM1</text><rect x="225" y="300" width="532" height="24" rx="5" fill="#247b84"/><text x="768" y="320" fill="#132238" font-size="18" font-weight="700">38%</text><rect x="225" y="331" width="280" height="18" rx="5" fill="#9eb7bb"/><text x="516" y="346" fill="#34465a" font-size="16">20%</text>
+    <text x="90" y="405" fill="#34465a" font-size="20">Black carbon</text><rect x="225" y="375" width="602" height="24" rx="5" fill="#247b84"/><text x="838" y="395" fill="#132238" font-size="18" font-weight="700">43%</text><text x="225" y="426" fill="#8a98a6" font-size="16">24-hour estimate not highlighted in public summary</text>
+    <text x="90" y="475" fill="#34465a" font-size="20">CO</text><rect x="225" y="445" width="238" height="24" rx="5" fill="#247b84"/><text x="474" y="465" fill="#132238" font-size="18" font-weight="700">17%</text>
+  </g>
+</svg>

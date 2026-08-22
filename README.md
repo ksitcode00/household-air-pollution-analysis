@@ -42,6 +42,10 @@ The figures summarize aggregate results reported in the public analysis. Partici
 
 ![Household study sample](figures/study_sample.svg)
 
+### Cooking-Period vs. 24-Hour Exposure Window
+
+![Adjusted pollutant reduction by exposure window](figures/exposure-window-comparison.svg)
+
 ## Analysis Walkthrough
 
 ### 1. Convert restricted source data into analysis variables
