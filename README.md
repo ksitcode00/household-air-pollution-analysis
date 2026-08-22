@@ -1,5 +1,7 @@
 # Household Air Pollution & Improved Cookstove Adoption
 
+← [Back to Portfolio](https://github.com/ksitcode00)
+
 **Context:** UC San Diego environmental-health research · **Tools:** R, regression modeling, mediation, IPW sensitivity analysis
 
 ## Executive Summary
