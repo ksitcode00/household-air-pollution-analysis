@@ -5,3 +5,5 @@
 data/private/
 results/private/
 *.html
+__pycache__/
+*.pyc
